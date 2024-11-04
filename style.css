@@ -1,0 +1,50 @@
+@font-face{
+    font-family: "SuperShiny" ;
+    src: url(./assets/fonts/Super\ Shiny.ttf);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 3.2rem;
+    font-family: "SuperShiny";
+    color: rgb(47, 154, 154);
+    text-shadow: .2rem .2rem .2rem black ;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to top , antiquewhite, black );
+}
+
+.conteudo{
+    box-shadow: 0 0 .3rem ;
+    padding: 4rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: antiquewhite;
+}
+
+.perfil{
+    height: 15rem;
+
+}
+
+.rede-sociais{
+    display: flex;
+    justify-content: space-between;
+}
